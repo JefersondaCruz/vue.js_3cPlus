@@ -12,12 +12,13 @@
         },
         created() {
             setTimeout (() => {
-                
-            })
-            this.nome = 'Jeferson'
+                this.nome = 'Jeferson'
+            }, 1000)
         },
         mounted() {
-            this.nome = 'bora borilll '
+            setTimeout (() => {
+                this.nome = 'Bora Bill'
+            }, 2000);
         }
     }
 </script>

@@ -1,11 +1,11 @@
 <template>
     <div>
         <h1>Olá vue!</h1>
-        <p> APOIO O COMUNISMO {{ nome }} e trabalho como {{ profissao }}</p>
+        <p> Meu Nome é {{ nome }} e trabalho como {{ profissao }}</p>
     </div>
 </template>
 
-<script>
+<script>    
     export default{
         name: "PrimeiroComponent",
         data() {
