@@ -13,12 +13,21 @@
         created() {
             setTimeout (() => {
                 this.nome = 'Jeferson'
-            }, 1000)
+            }, 1000);
+
+            this.lifeCycle()
         },
         mounted() {
             setTimeout (() => {
                 this.nome = 'Bora Bill'
             }, 2000);
+
+            this.lifeCycle()
+        },
+        methods: {
+            lifeCycle() {
+                console.log('Executou');
+            }
         }
     }
 </script>
